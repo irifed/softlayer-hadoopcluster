@@ -84,3 +84,11 @@ popd
 # return from /tmp
 popd
 
+# TODO configure Hadoop:
+# 1) export JAVA_HOME=... in /usr/local/hadoop/etc/hadoop/hadoop.env
+# 2) proper settings for clustered operation from here:
+# (http://hadoop.apache.org/docs/r2.4.1/hadoop-project-dist/hadoop-common/SingleCluster.html)
+# or (http://hadoop.apache.org/docs/r2.4.1/hadoop-project-dist/hadoop-common/ClusterSetup.html)
+
+# TODO some programs (e.g. Crossbow) require that its components are accessible on all cluster nodes at the same path.
+# To achieve this it is necessary to set up e.g. NFS
